@@ -69,7 +69,7 @@ class LoggingMixin(object):
 
 
 class StreamLogWriter(object):
-    encoding = False
+    encoding = None
 
     """
     Allows to redirect stdout and stderr to logger
